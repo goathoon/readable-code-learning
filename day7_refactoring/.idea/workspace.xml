@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5acffe9e-d65c-4b93-8ecf-50af88895ec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/readable-code-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/StudyCafeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/StudyCafePassMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/exception/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/InputHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/OutputHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/StudyCafeFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/parser/CsvParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafeLockerPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafeOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafePass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafePassType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/pass/LockerPasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/pass/StudyCafePasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/exception/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/InputHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/OutputHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeLockerPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafePass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafePassType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +46,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "goathoon"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;goathoon&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/goathoon/readable-code-learning.git",
-    "accountId": "d9535bb5-e3b2-4840-906d-8224ebdd9339"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/goathoon/readable-code-learning.git&quot;,
+    &quot;accountId&quot;: &quot;d9535bb5-e3b2-4840-906d-8224ebdd9339&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2uAuvnlcxrGfBBuaBuqRbVPLUZD" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -79,7 +72,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/build.gradle",
+    "last_opened_file_path": "/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/src/main/java/cleancode/studycafe/tobewithlecture",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -87,6 +81,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cleancode.studycafe.asis.exception" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="StudyCafeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
