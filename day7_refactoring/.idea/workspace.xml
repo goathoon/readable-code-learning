@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5acffe9e-d65c-4b93-8ecf-50af88895ec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/order/StudyCafePassOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/provider/LockerPassFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/provider/SeatPassFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/provider/LockerPassProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/provider/SeatPassProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafeApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/OutputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/OutputHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeIOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeIOHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/pass/StudyCafeSeatPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/pass/StudyCafeSeatPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeFileHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +64,10 @@
     &quot;accountId&quot;: &quot;d9535bb5-e3b2-4840-906d-8224ebdd9339&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -73,25 +75,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.day7_refactoring [:cleancode.studycafe.mine.StudyCafeApplication.main()].executor": "Run",
-    "Gradle.day7_refactoring [:cleancode.studycafe.tobewithlecture.StudyCafeApplication.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "with-lecture",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/src/main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.day7_refactoring [:cleancode.studycafe.mine.StudyCafeApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day7_refactoring [:cleancode.studycafe.tobewithlecture.StudyCafeApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;with-lecture&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/src/main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
