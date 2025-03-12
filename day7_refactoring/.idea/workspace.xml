@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5acffe9e-d65c-4b93-8ecf-50af88895ec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeIOHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cleancode/studycafe/locker.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cleancode/studycafe/pass-list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeLockerPasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafePasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeFileHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     &quot;accountId&quot;: &quot;d9535bb5-e3b2-4840-906d-8224ebdd9339&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
@@ -91,9 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cleancode.studycafe.tobewithlecture.model" />
       <recent name="cleancode.studycafe.asis.exception" />
     </key>
   </component>
@@ -167,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741703932681</updated>
       <workItem from="1741703933771" duration="240000" />
-      <workItem from="1741781733125" duration="1101000" />
+      <workItem from="1741781733125" duration="1945000" />
     </task>
     <servers />
   </component>
@@ -179,7 +182,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java</url>
-          <line>26</line>
+          <line>24</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
