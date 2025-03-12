@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5acffe9e-d65c-4b93-8ecf-50af88895ec2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeIOHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cleancode/studycafe/locker.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cleancode/studycafe/pass-list.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -50,6 +60,9 @@
     &quot;accountId&quot;: &quot;d9535bb5-e3b2-4840-906d-8224ebdd9339&quot;
   }
 }</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -65,7 +78,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "with-lecture",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/src/main/java/cleancode/studycafe/tobewithlecture",
+    "last_opened_file_path": "/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
@@ -152,10 +167,22 @@
       <option name="presentableId" value="Default" />
       <updated>1741703932681</updated>
       <workItem from="1741703933771" duration="240000" />
+      <workItem from="1741781733125" duration="1101000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
