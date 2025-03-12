@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5acffe9e-d65c-4b93-8ecf-50af88895ec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/readable-code-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/StudyCafeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/StudyCafePassMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/exception/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/InputHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/OutputHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/StudyCafeFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/io/parser/CsvParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafeLockerPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafeOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafePass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/model/StudyCafePassType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/pass/LockerPasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/mine/pass/StudyCafePasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/provider/LockerPassFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/provider/SeatPassFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/provider/LockerPassProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/provider/SeatPassProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeFileHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,44 +41,70 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "goathoon"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;goathoon&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/goathoon/readable-code-learning.git",
-    "accountId": "d9535bb5-e3b2-4840-906d-8224ebdd9339"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/goathoon/readable-code-learning.git&quot;,
+    &quot;accountId&quot;: &quot;d9535bb5-e3b2-4840-906d-8224ebdd9339&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2uAuvnlcxrGfBBuaBuqRbVPLUZD" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.day7_refactoring [:cleancode.studycafe.mine.StudyCafeApplication.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/build.gradle",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.day7_refactoring [:cleancode.studycafe.mine.StudyCafeApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.day7_refactoring [:cleancode.studycafe.tobewithlecture.StudyCafeApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;with-lecture&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/taehoon/develope/study/readable-code-learning/day7_refactoring/src/main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cleancode.studycafe.tobewithlecture.model" />
+      <recent name="cleancode.studycafe.asis.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.cleancode.studycafe.tobewithlecture.StudyCafeApplication">
     <configuration name="StudyCafeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -96,6 +113,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cleancode.studycafe.mine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cleancode.studycafe.tobewithlecture.StudyCafeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cleancode.studycafe.tobewithlecture.StudyCafeApplication" />
+      <module name="day_refactoring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cleancode.studycafe.tobewithlecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.cleancode.studycafe.tobewithlecture.StudyCafeApplication" />
+      <item itemvalue="Application.StudyCafeApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.cleancode.studycafe.tobewithlecture.StudyCafeApplication" />
         <item itemvalue="Application.StudyCafeApplication" />
       </list>
     </recent_temporary>
@@ -139,10 +174,22 @@
       <option name="presentableId" value="Default" />
       <updated>1741703932681</updated>
       <workItem from="1741703933771" duration="240000" />
+      <workItem from="1741781733125" duration="4483000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
