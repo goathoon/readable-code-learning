@@ -1,4 +1,4 @@
-package cleancode.studycafe.tobewithlecture.model;
+package cleancode.studycafe.tobewithlecture.model.pass;
 
 import java.util.Set;
 

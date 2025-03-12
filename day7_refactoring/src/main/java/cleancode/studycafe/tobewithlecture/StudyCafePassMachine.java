@@ -5,7 +5,9 @@ import cleancode.studycafe.tobewithlecture.io.InputHandler;
 import cleancode.studycafe.tobewithlecture.io.OutputHandler;
 import cleancode.studycafe.tobewithlecture.io.StudyCafeFileHandler;
 import cleancode.studycafe.tobewithlecture.io.StudyCafeIOHandler;
-import cleancode.studycafe.tobewithlecture.model.*;
+import cleancode.studycafe.tobewithlecture.model.pass.*;
+import cleancode.studycafe.tobewithlecture.model.pass.locker.StudyCafeLockerPass;
+import cleancode.studycafe.tobewithlecture.model.pass.locker.StudyCafeLockerPasses;
 
 import java.util.List;
 import java.util.Optional;
@@ -22,7 +24,7 @@ public class StudyCafePassMachine {
             ioHandler.showWelcomeMessage();
             ioHandler.showAnnouncement();
 
-            StudyCafePass selectedPass = selectPass();
+            StudyCafeSeatPass selectedPass = selectPass();
             Optional<StudyCafeLockerPass> optionalLockerPass = selectLockerPass(selectedPass);
 
             // 이전에는 이러한 로직을 작성하기 싫어서 Optional 파라미터를 그대로 함수에 넣어줬지만.. 분기가 3개가 되는 파라미터가 되므로 지양해야함
@@ -40,15 +42,15 @@ public class StudyCafePassMachine {
         }
     }
 
-    private StudyCafePass selectPass() {
+    private StudyCafeSeatPass selectPass() {
         StudyCafePassType passType = ioHandler.askPassTypeSelecting();
-        List<StudyCafePass> passCandidates = findPassCandidatesBy(passType);
+        List<StudyCafeSeatPass> passCandidates = findPassCandidatesBy(passType);
 
         return ioHandler.askPassSelecting(passCandidates);
     }
 
-    private List<StudyCafePass> findPassCandidatesBy(StudyCafePassType studyCafePassType) {
-        StudyCafePasses allPasses = studyCafeFileHandler.readStudyCafePasses();
+    private List<StudyCafeSeatPass> findPassCandidatesBy(StudyCafePassType studyCafePassType) {
+        StudyCafeSeatPasses allPasses = studyCafeFileHandler.readStudyCafePasses();
 
         return allPasses.findBassBy(studyCafePassType);
     }
@@ -56,7 +58,7 @@ public class StudyCafePassMachine {
     /**
      * null 리턴은 안티패턴 -> optional로
      */
-    private Optional<StudyCafeLockerPass> selectLockerPass(StudyCafePass selectedPass) {
+    private Optional<StudyCafeLockerPass> selectLockerPass(StudyCafeSeatPass selectedPass) {
         // 고정 좌석 타입이 아닌가?
         // 사물함 옵션을 사용할 수 있는 타입이 아닌가? 로 생각하면 충분히 메서드명 달리할 수 있음
         if (selectedPass.cannotUserLocker()) {
@@ -77,7 +79,7 @@ public class StudyCafePassMachine {
         return Optional.empty();
     }
 
-    private Optional<StudyCafeLockerPass> findLockerPassCandidateBy(StudyCafePass pass) {
+    private Optional<StudyCafeLockerPass> findLockerPassCandidateBy(StudyCafeSeatPass pass) {
         StudyCafeLockerPasses allLockerPasses = studyCafeFileHandler.readLockerPasses();
 
         return allLockerPasses.findLockerPassBy(pass);
