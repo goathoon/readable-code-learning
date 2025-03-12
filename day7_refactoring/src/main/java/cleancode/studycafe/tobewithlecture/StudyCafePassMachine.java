@@ -5,6 +5,7 @@ import cleancode.studycafe.tobewithlecture.io.InputHandler;
 import cleancode.studycafe.tobewithlecture.io.OutputHandler;
 import cleancode.studycafe.tobewithlecture.io.StudyCafeFileHandler;
 import cleancode.studycafe.tobewithlecture.io.StudyCafeIOHandler;
+import cleancode.studycafe.tobewithlecture.model.order.StudyCafePassOrder;
 import cleancode.studycafe.tobewithlecture.model.pass.*;
 import cleancode.studycafe.tobewithlecture.model.pass.locker.StudyCafeLockerPass;
 import cleancode.studycafe.tobewithlecture.model.pass.locker.StudyCafeLockerPasses;
@@ -27,13 +28,12 @@ public class StudyCafePassMachine {
             StudyCafeSeatPass selectedPass = selectPass();
             Optional<StudyCafeLockerPass> optionalLockerPass = selectLockerPass(selectedPass);
 
-            // 이전에는 이러한 로직을 작성하기 싫어서 Optional 파라미터를 그대로 함수에 넣어줬지만.. 분기가 3개가 되는 파라미터가 되므로 지양해야함
-            // 바로 optional을 해소하는 방향으로 하자 -> 분기처리가 또필요해짐 -> ifPresentOrElse로 분기
-            optionalLockerPass.ifPresentOrElse(
-                    lockerPass -> ioHandler.showPassOrderSummary(selectedPass, lockerPass),
-                    () -> ioHandler.showPassOrderSummary(selectedPass)
+            StudyCafePassOrder passOrder = StudyCafePassOrder.of(
+                    selectedPass,
+                    optionalLockerPass.orElse(null)
             );
 
+            ioHandler.showPassOrderSummary(passOrder);
 
         } catch (AppException e) {
             ioHandler.showSimpleMessage(e.getMessage());

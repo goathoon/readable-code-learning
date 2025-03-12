@@ -1,11 +1,13 @@
 package cleancode.studycafe.tobewithlecture.io;
 
+import cleancode.studycafe.tobewithlecture.model.order.StudyCafePassOrder;
 import cleancode.studycafe.tobewithlecture.model.pass.locker.StudyCafeLockerPass;
 import cleancode.studycafe.tobewithlecture.model.pass.StudyCafePass;
 import cleancode.studycafe.tobewithlecture.model.pass.StudyCafeSeatPass;
 import cleancode.studycafe.tobewithlecture.model.pass.StudyCafePassType;
 
 import java.util.List;
+import java.util.Optional;
 
 public class OutputHandler {
 
@@ -44,25 +46,26 @@ public class OutputHandler {
         System.out.println("1. 예 | 2. 아니오");
     }
 
-    // 나의 코드에는 VO를 사용해서 처리했는데.. 이방식이 좀더 낫겠구먼..
-    public void showPassOrderSummary(StudyCafeSeatPass selectedPass) {
-        showPassOrderSummary(selectedPass,null);
-    }
-    public void showPassOrderSummary(StudyCafeSeatPass selectedPass, StudyCafeLockerPass lockerPass) {
+    public void showPassOrderSummary(StudyCafePassOrder passOrder) {
+        StudyCafeSeatPass selectedPass = passOrder.getSeatPass();
+        Optional<StudyCafeLockerPass> optionalLockerPass = passOrder.getLockerPass();
+
         System.out.println();
         System.out.println("이용 내역");
         System.out.println("이용권: " + display(selectedPass));
-        if (lockerPass != null) {
-            System.out.println("사물함: " + display(lockerPass));
-        }
 
-        double discountRate = selectedPass.getDiscountRate();
-        int discountPrice = (int) (selectedPass.getPrice() * discountRate);
+        optionalLockerPass.ifPresent(
+                lockerPass -> System.out.println("사물함: " + display(lockerPass))
+        );
+
+        // 주문부분은 Order에서 하는게 SRP적으로 올바름
+        int discountPrice = passOrder.getDiscountPrice();
+
         if (discountPrice > 0) {
             System.out.println("이벤트 할인 금액: " + discountPrice + "원");
         }
 
-        int totalPrice = selectedPass.getPrice() - discountPrice + (lockerPass != null ? lockerPass.getPrice() : 0);
+        int totalPrice = passOrder.getTotalPrice();
         System.out.println("총 결제 금액: " + totalPrice + "원");
         System.out.println();
     }
@@ -87,4 +90,6 @@ public class OutputHandler {
         }
         return "";
     }
+
+
 }

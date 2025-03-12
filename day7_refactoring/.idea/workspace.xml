@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5acffe9e-d65c-4b93-8ecf-50af88895ec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeSeatPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/order/StudyCafePassOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/StudyCafePassMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/InputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/OutputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/OutputHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeFileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeIOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/io/StudyCafeIOHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeLockerPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeLockerPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeLockerPasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeLockerPasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafePass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafePass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafePasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/StudyCafeSeatPasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/pass/StudyCafeSeatPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cleancode/studycafe/tobewithlecture/model/pass/StudyCafeSeatPass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -177,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741703932681</updated>
       <workItem from="1741703933771" duration="240000" />
-      <workItem from="1741781733125" duration="2932000" />
+      <workItem from="1741781733125" duration="4483000" />
     </task>
     <servers />
   </component>
